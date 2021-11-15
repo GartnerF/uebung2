@@ -35,6 +35,7 @@ resource appService 'Microsoft.Web/sites@2020-06-01' = {
     }
   }
 }
+//test
 //Repository wo sich die Daten für das deployment befinden
 resource srcControls 'Microsoft.Web/sites/sourcecontrols@2021-01-01' = {
   name: '${appService.name}/web'
