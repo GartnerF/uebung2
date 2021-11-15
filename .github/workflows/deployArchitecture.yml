@@ -1,4 +1,4 @@
-name: Deploy Web App Jochum.
+name: Deploy Web App Gartner.
 on: [push]
 jobs:
   build:
